@@ -1,0 +1,35 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Lab01;
+
+/**
+ *
+ * @author User
+ */
+public class Soccerplayer {
+    private double number;
+    private String name;
+    private int x,y;
+
+    public Soccerplayer(double number, String name, int x, int y) {
+        this.number = number;
+        this.name = name;
+        this.x = x;
+        this.y = y;
+    }
+    
+    
+    public Soccerplayer(double run,double jump,double kickball){
+        System.out.println(" run " + run +" jump " + jump + " kickball " + kickball);
+    }
+
+    @Override
+    public String toString() {
+        return "Soccerplayer{" + "number=" + number + ", name=" + name + ", x=" + x + ", y=" + y + '}';
+    }
+    
+    
+}
