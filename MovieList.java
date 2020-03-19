@@ -8,6 +8,7 @@ public class MovieList {
         Scanner sc = new Scanner(System.in);
         List<String> film = new ArrayList<>();
         String nameFilm;
+        Boolean check;
         Integer x;
         Integer n;
         Integer m=0;
@@ -49,9 +50,9 @@ public class MovieList {
                     System.out.println("Danh sách các bộ phim sau khi chỉnh sửa: " + film);
                     break;
                 case 5:
-                    System.out.println("\n Nhập tên bộ phim bạn muốn tìm kiếm: ");
-                    nameFilm = sc.next();
-                    System.out.println("Tên bộ phim của bạn: " + nameFilm.contains(nameFilm));
+                System.out.println("\n Nhập tên bộ phim bạn muốn tìm kiếm: ");
+                check = film.add(sc.next());
+                System.out.println("Tên bộ phim của bạn: " + film.contains(check));
             }
         }while (m<0);
     }
