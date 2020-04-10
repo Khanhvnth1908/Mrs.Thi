@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data xmlns="http://www.fpt-aptech.com/customer" xmlns:mybook="http://www.superduperbigco.com/customer_service">
+<BookOrder OrderNo="1234">
+    <OrderDate>2001-01-11</OrderDate>
+
+         <Customer>
+             <Title>Mr.</Title>
+             <LastName>Graeme</LastName>
+             <FistName>Malcolm</FistName>
+         </Customer>
+         <mybook:Book>
+             <mybook:Title>Trease Island</mybook:Title>
+             <mybook:Authour>Robert Louis Stevenson</mybook:Authour>
+         </mybook:Book>
+</BookOrder>
+</Data>
